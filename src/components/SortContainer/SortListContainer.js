@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SortListContainer.css"
 export default function SortListContainer(props) {
 
-  const [isListOpen, setIsListOpen] = useState(false);
+  // const [isListOpen, setIsListOpen] = useState(false);
 
-  function OpenList() {
-      setIsListOpen(true);
-  }
+  // function OpenList() {
+  //     setIsListOpen(true);
+  // }
 
-  function CloseList() {
-      setIsListOpen(false);
-  }
+  // function CloseList() {
+  //     setIsListOpen(false);
+  // }
 
     return (
         <ul className="sort-list">
