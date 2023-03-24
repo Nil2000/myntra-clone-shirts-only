@@ -1,0 +1,31 @@
+.filter{
+  display: flex;
+  flex-direction: column;
+}
+.filter-header{
+  padding-left: 10%;
+  border-bottom: 1px solid #e9e9ed;
+}
+.filter-header h3{
+  text-transform:uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+.filter-contents{
+  display: flex;
+  flex-direction: column;
+}
+.filter-item{
+  border-bottom: 1px solid #e9e9ed;
+  border-right: 1px solid #e9e9ed;
+}
+.filter-heading{
+  font-weight: bold;
+  margin-left: 10%;
+  padding-top: 10px;
+  display: block;
+}
+.gender-list span{
+  margin-left: 10px;
+  font-weight: normal;
+}

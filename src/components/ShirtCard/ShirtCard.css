@@ -1,0 +1,18 @@
+.product-base{
+  width: 210px;
+    text-align: left;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 10px 30px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.product-base img{
+  height: 80%;
+  width: 100%;
+}

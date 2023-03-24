@@ -1,0 +1,36 @@
+.right-filters{
+  flex: 5;
+}
+.right-filters-main{
+  list-style: none;
+  display: flex;
+  padding: 0 0 0 20px;
+  margin: 9px 0 9px 0;
+}
+.right-filter-li{
+  margin-right: 10px;
+}
+.right-filter-li label{
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  border-radius: 20px;
+  padding: 5px 8px 0 15px;
+}
+.right-filter-li label:hover{
+  background-color: rgb(235, 235, 235);
+}
+.right-filter-li h4{
+  margin: 3px 0 0 0;
+  vertical-align: middle;
+  font-weight: 400;
+}
+.right-filter-li input{
+  display: none;
+}
+.icon{
+  display:flex;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,33 @@
+.sort-list {
+  width: 100%;
+  list-style: none;
+  z-index: 2;
+  top: 33px;
+  position: absolute;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #d4d6d9;
+  border-top: none;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.08);
+  margin: 0;
+  left: -1px;
+  cursor: pointer;
+}
+.sort-list li{
+  padding: 0 14px;
+}
+.sort-list li:hover{
+  background-color: #f1f1f1;
+}
+.sort-label {
+  display: block;
+  font-size: 14px;
+  color: #282c3f;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  font-size: 14px;
+}
+.sort-label input {
+  visibility: hidden;
+  display: none;
+}

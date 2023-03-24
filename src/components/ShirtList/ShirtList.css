@@ -1,0 +1,13 @@
+.shirts-container{
+  padding: 24px 20px 0 15px;
+}
+.shirts-container ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  /* justify-content: space-between; */
+  margin-right: -10px;
+  align-content: stretch;
+}
