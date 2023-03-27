@@ -1,0 +1,29 @@
+.shirt-details-page {
+    height: 100vh;
+}
+.detail{
+  transition: all 0.3 ease-in-out;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.shirt-details-page header {
+    font-size: 16px;
+    height: 80px;
+}
+.shirt-details-page-body{
+  padding: 1em 2em 0 2em;
+}
+.body-header {
+    display: flex;
+    padding: 0 2%;
+}
+
+.body-header h4 {
+    margin: 0 10px;
+}
+
+.shirt-details-page-body .main-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 2% 0 4%;
+}

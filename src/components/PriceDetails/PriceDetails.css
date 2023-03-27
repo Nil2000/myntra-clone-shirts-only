@@ -1,0 +1,109 @@
+.details-page-price-container {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.details-page-price-container .name {
+    border-bottom: 1px solid #d4d5d9;
+}
+.details-page-price-container .name h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 5px 0 0;
+    text-transform: uppercase;
+}
+.details-page-price-container .name h4 {
+    color: #535665;
+    padding: 4px 20px 14px 0;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 400;
+    margin: 0;
+}
+.details-page-price-container .content-price {
+    padding-top: 1rem;
+    align-items: center;
+}
+.details-page-price-container .content-price .row1 .price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+.details-page-price-container .content-price .row1 .original-price {
+    font-size: 18px;
+    padding-left: 8px;
+    text-decoration: line-through;
+    color: #535665;
+}
+.details-page-price-container .content-price .row1 .discount {
+    font-size: 18px;
+    padding-left: 8px;
+    color: #ff905a;
+    font-weight: 700;
+}
+.content-price .row2 {
+    color: #0db7af;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.content-price .button-group{
+  display: flex;
+  width: 90%;
+  margin: 28px 0 14px;
+  border-bottom: 1px solid #d4d5d9;
+  padding-bottom: 30px;
+}
+.content-price .button-group .bag{
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-right: 3%;
+    padding: 14px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.content-price .button-group .bag span{
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.content-price .button-group .wishlist{
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #d4d5d9;
+  color: #282c3f;
+  text-align: center;
+  width: 80%;
+  margin-right: 3%;
+  padding: 14px 0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.content-price .button-group .wishlist-clicked{
+  color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+}
+.content-price .button-group .wishlist span{
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.seller-info h4{
+  display: inline-block;
+  margin-left: 5px;
+}

@@ -23,3 +23,45 @@
 .down-arrow {
     float: right;
 }
+.sort-container .sort-list {
+  display: none;
+  width: 100%;
+  list-style: none;
+  z-index: 2;
+  top: 33px;
+  position: absolute;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #d4d6d9;
+  border-top: none;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.08);
+  margin: 0;
+  left: -1px;
+  cursor: pointer;
+}
+.sort-container:hover .sort-list{
+  display: block;
+}
+.sort-list li{
+  padding: 0 14px;
+  font-size: 14px;
+}
+.sort-list li:hover{
+  background-color: #f1f1f1;
+}
+.sort-label {
+  display: block;
+  font-size: 14px;
+  font-family: inherit;
+  color: #282c3f;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  text-align: left;
+}
+.sort-label input {
+  visibility: hidden;
+  display: none;
+}

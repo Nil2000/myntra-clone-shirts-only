@@ -1,0 +1,21 @@
+.image-list{
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.image-list .image{
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 20vw;
+}
+.image-list .image img{
+  transition: all .2s ease-in-out;
+  cursor: zoom-in;
+  width: 20vw;
+}
+.image-list .image img:hover{
+  transform: scale(1.03);
+}

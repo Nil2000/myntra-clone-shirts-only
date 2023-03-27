@@ -1,0 +1,89 @@
+.listItem {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #eaeaec;
+    padding: 1rem;
+}
+.listItem .main {
+    display: flex;
+}
+.listItem img {
+    width: 8vw;
+    margin-right: 1rem;
+}
+.listItem .info {
+    padding-top: 4px;
+}
+.listItem .info .dropdowns {
+    padding-top: 1rem;
+    display: flex;
+}
+.listItem .info > div {
+    padding-right: 1rem;
+}
+
+.listItem .brandName {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+.listItem .column1 .productName,.soldBy {
+  margin: 0;
+  text-align: left;
+}
+.listItem .soldBy {
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.listItem .columns {
+    display: flex;
+    width: 18vw;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.listItem .checks {
+    padding-top: 8px;
+    font-size: 14px;
+}
+.listItem .checks .svg{
+  padding-top: 8px;
+}
+.listItem .checks svg path{
+  fill: rgb(0, 128, 83);
+}
+.listItem .checks div{
+  padding-top: 8px;
+}
+.listItem .column2 .price {
+    font-size: 14px;
+    font-weight: 700;
+}
+.listItem .column2 .discount {
+    display: flex;
+}
+.listItem .column2 .discount .orignalPrice {
+    text-decoration: line-through;
+}
+.listItem .column2 .discount .discountRange {
+    font-size: 14px;
+    padding-left: 8px;
+    color: #ff905a;
+    font-weight: 700;
+}
+
+.listItem .buttons {
+    display: grid;
+    width: 100%;
+    padding-top: 16px;
+    grid-template-columns: 10rem 20rem;
+}
+.listItem .buttons button {
+    text-transform: uppercase;
+    padding: 16px;
+    border: 1px solid #eaeaec;
+}
